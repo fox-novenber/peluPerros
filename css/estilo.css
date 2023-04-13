@@ -112,10 +112,13 @@ position: relative;
 }
 .redesSociales a img{
 margin: 1.3rem;
+width: 50px;
+height: 50px;
 }
 footer {
     text-align: center;
 }
+
 
 /* CSS PARA PRODUCTOS.HTML*/
 
