@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+
+
+/* Estilo de la barra de navegacion*/
+
+body{
+    display: block;
+    background: linear-gradient(#ffffff, #f3a3d3) ;
+    }
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.Navegacion {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    height: 140px;
+    width: 220px;
+    border-radius: 25%;
+
+}
+/* CSS PARA LA BARRA DE NAVEGACION */
+
+.menuNavegacion{
+    font-size: 1.3rem;
+    text-align: left;
+    width: 100%;
+    
+}
+
+.menuNavegacion a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    transition: 0.3s;
+    
+}
+    
+
+.menuNavegacion li {
+    margin: 2px;
+    border: 1px solid black;
+
+}
+
+.menuNavegacion a:hover{
+    background-color: #ccc;
+    color: #f3a3d3;
+}
+/* CSS DEL VIDEO*/
+.video-celu{
+padding: 5px;
+position: relative;
+
+}
+#miVideo{
+    width: 420px; /*descubri que cuando se le borra una de las propiedades de alto o ancho el video se vuelve mas responsive porque la propiedad min-whidith o min-haigth tiene menos resticciones pero si se borran las dos propiedades de alto y ancho se rompe el codigo*/
+    min-height: 100%;
+    min-width: 100%;
+    border: solid 3px violet;
+    z-index: 1;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+/* BANNER*/
+
+.baner{
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 99%;
+    padding: 20px;
+    font-size: x-large;
+    
+}
+
+/* CSS DEL CONTENIDO*/
+
+.aqueNosDedicamos {
+    padding: 5px;
+}
+.queHacemos{
+    text-align: center;
+}
+.aqueNosDedicamos p {
+    text-align: justify;
+    padding: 3px;
+}
+.redesSociales {
+    display: block;
+    text-align: center;
+    gap: 10px;
+}
+.redesSociales a img{
+margin: 1.3rem;
+}
+footer {
+    text-align: center;
+}
+
+/* CSS PARA PRODUCTOS.HTML*/
+
+.producto {
+    display: inline-block;
+    padding:5px;
+    box-sizing: border-box;
+    position: relative;
+    
+    }
+    
+    .img_producto {
+        width:400px;
+        min-height: 100%;
+        min-width: 100%;
+    }
+    .img_producto img {
+        object-fit: cover;
+        width:100%;
+        height:100%;
+    }
+    
+    .txt_Producto {
+        position: relative;
+        text-align: center;
+        bottom: 15rem;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+        font-size: large;
+        border-bottom: 3px solid rgb(226, 7, 226);
+    }
+
+    /*CSS PARA PAGINA SOBRE_NOSOTROS.HTML*/
+    h2{
+        text-align: center;
+    }
+
+    .txt_Nosotros{
+        text-align: justify;
+        padding: 0 15px 0 15px;
+    }
+    .img_producto, bookfotos {
+        margin:10px;
+        
+        border: 2px solid rgb(226, 7, 226)
+
+    }
+
+/*.menuNavegacion li {
+    list-style-type:none;
+    position: relative;
+    padding: 10px;
+    margin: 2px;
+    border:1px solid #000;
+    
+    
+}
+
+.menuNavegacion li a{
+    text-decoration:none;
+    
+    color:black;
+    width: 150px;    
+    }*/
+
+    
