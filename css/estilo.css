@@ -51,8 +51,10 @@ nav {
     transition: 0.3s;
     
 }
-    
-
+   /* estdding 0 es para corregir el q da bootstrap*/ 
+ul{
+    padding: 0px;
+}
 .menuNavegacion li {
     margin: 2px;
     border: 1px solid black;
@@ -200,7 +202,7 @@ footer {
         text-align: center;    
         }
         .img_producto img {
-            width: 780px;
+            width: 6    80px;
             height: 420px;
             
         }
@@ -307,25 +309,41 @@ footer {
             grid-area: fondo;
             
         }
+        .contacto-Mapa{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .datos{
+            text-align: start;
+        }
 
 
 
 
     } /* fin de la media para maquinas escritorio*/
 
-/*.menuNavegacion li {
-    list-style-type:none;
-    position: relative;
-    padding: 10px;
-    margin: 2px;
-    border:1px solid #000;
-    
-    
+/* estilos para bootstrap*/
+.mio a{
+    color: inherit;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    text-align: center;
+    background-image: linear-gradient(#565e10, #eb0909),
+    linear-gradient(transparent, transparent);
+    background-size: 0 2px, auto;
+    background-repeat: no-repeat;
+    background-position:  bottom;
+    transition: all 0.2s ease-out;
 }
-
-.menuNavegacion li a{
-    text-decoration:none;
-    
-    color:black;
-    width: 150px;    
-    }*/
+    .mio a:hover {
+    color: #f526a2;
+    opacity: 0.6;
+    background-size: 100% 2px, auto;
+}   
+.fondo-nav{
+    background: linear-gradient(#d4c0d4, #f0c0dd) ;
+}
+.logoP{
+    border-radius: 35%;
+    margin-right: 10px;
+}
